@@ -7,5 +7,8 @@ namespace Locamer.Models
 {
     public class Client
     {
+
+        private int _id;
+        private String _name;
     }
 }
