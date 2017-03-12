@@ -10,5 +10,10 @@ namespace Locamer.Models
 
         private int _id;
         private String _name;
+
+        public void Client(int id)
+        {
+            this._id = id;
+        }
     }
 }
